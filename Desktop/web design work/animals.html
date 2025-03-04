@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Sanctuary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+        .header {
+            height: 200px;
+            background: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .nav {
+            background: orange;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .nav a:hover {
+            background: white;
+            color: orange;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            min-width: 150px;
+            text-align: left;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        .image img {
+            width: 490px;
+            height: 735px;
+        }
+        .text {
+            width: 50%;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+        .footer {
+            background: orange;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Wildlife Sanctuary Logo</div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Get Involved</a>
+        <div class="dropdown">
+            <a href="#">Animals &#9662;</a>
+            <div class="dropdown-content">
+                <a href="#">Cheetah</a>
+                <a href="#">Elephant</a>
+                <a href="#">Warthog</a>
+                <a href="#">Foxes</a>
+                <a href="#">Dik-diks</a>
+                <a href="#">Hyena</a>
+                <a href="#">White belly bird</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="image"><img src="69505070-6154-44d2-9546-cde920274630.jpeg" alt="Wildlife"></div>
+        <div class="text">
+            <p>
+                An incredible 25% of the world's biodiversity is in Africa,<br>
+                and Kenya, on the eastern coast of the African continent, <br>
+                is one of the ten most biodiverse countries on earth.<br><br>
+                According to recent estimates, Kenya is home to 25,000 animal species,<br>
+                including many large mammals, 7,000 plant species, and 2,000 fungi<br>
+                and bacteria species. These species thrive in Kenya's rich array<br>
+                of ecosystems, from lush forests and savannahs to the snow-capped <br>
+                peaks of Mount Kenya and arid scrublands. There are also plenty <br>
+                of aquatic habitats in Kenya, both along the coast and inland.<br><br>
+                Kenya is home to 467 inland lake and wetland habitats,<br>
+                which support a diverse selection of wildlife and animals.<br><br>
+                Rich biodiversity and a wide variety of ecosystems allow<br>
+                a large range of wildlife to thrive in Kenya.<br>
+                So, let's take a closer look at some of the animals you <br>
+                can find in Kenya.
+            </p>
+        </div>
+    </div>
+    <div class="footer">Footer: Your details</div>
+</body>
+</html>
